@@ -47,7 +47,11 @@
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img :src="item.imageUrl" />
+                    <img
+                      :src="item.imageUrl"
+                      alt=""
+                      role="presentation"
+                    />
                   </a>
                   <a
                     v-if="item.title"
